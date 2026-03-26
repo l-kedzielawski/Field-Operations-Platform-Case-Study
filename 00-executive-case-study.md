@@ -72,7 +72,7 @@ This project shows more than implementation skill. It shows:
 
 ![Approval dashboard placeholder](screenshots/05-approval-dashboard.png)
 
-![Approved Panel with PDF raport export](screenshots/08-approved-dashboard.png)
+![Approved Panel with PDF raport export](screenshots/06-approved-dashboard.png)
 
 ![Monter List with all the info](screenshots/07-monter-list.png)
 
