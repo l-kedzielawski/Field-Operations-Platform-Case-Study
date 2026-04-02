@@ -2,7 +2,7 @@
 
 ## Architectural style
 
-The platform uses WordPress as the application shell, but the domain model is largely custom.
+The platform uses WordPress as the application shell, but the domain model is largely custom. The WordPress choice was deliberate - the client team already used it for internal admin work, which reduced onboarding friction significantly.
 
 This is important: the app does not mainly rely on posts, pages, and standard CMS patterns to represent the business. Instead, it uses dedicated database tables and purpose-built PHP modules to model projects, documents, attendance, and submissions directly.
 
@@ -64,23 +64,6 @@ Major business data sits in custom MySQL tables such as:
 - `mhr_notification_log`
 - `mhr_regulamin_updates`
 
-
-## Shortcode and screen map
-
-The app uses WordPress shortcodes as delivery points for application screens.
-
-| Shortcode | Primary purpose |
-|-----------|-----------------|
-| `[project_submission]` | Worker-facing work submission form |
-| `[approval_dashboard]` | Supervisor and manager review queue |
-| `[mhr_document_center]` | Worker document management workspace |
-| `[mhr_document_accept]` | Admin-side document approval area |
-| `[mhr_notification_popup]` | In-app compliance and status popup |
-| `[mhr_notification_static]` | Inline notification banner |
-| `[mhr_clock]` | Clock in/out widget |
-| `[mhr_attendance]` | Attendance review interface |
-| `[mhr_projects_map]` | Atlas and map-based operations screen |
-
 ### 4. Interaction layer
 
 The platform relies heavily on AJAX through `admin-ajax.php` for business actions such as:
@@ -106,6 +89,22 @@ Verified integrations and platform dependencies include:
 - WordPress roles, auth, and admin facilities,
 - Ultimate Member-related account status patterns,
 - environment variables loaded from `.env-mhr`.
+
+## Shortcode and screen map
+
+The app uses WordPress shortcodes as delivery points for application screens.
+
+| Shortcode | Primary purpose |
+|-----------|-----------------|
+| `[project_submission]` | Worker-facing work submission form |
+| `[approval_dashboard]` | Supervisor and manager review queue |
+| `[mhr_document_center]` | Worker document management workspace |
+| `[mhr_document_accept]` | Admin-side document approval area |
+| `[mhr_notification_popup]` | In-app compliance and status popup |
+| `[mhr_notification_static]` | Inline notification banner |
+| `[mhr_clock]` | Clock in/out widget |
+| `[mhr_attendance]` | Attendance review interface |
+| `[mhr_projects_map]` | Atlas and map-based operations screen |
 
 ## Request and action pattern
 

@@ -1,8 +1,6 @@
 # Security And Governance
 
-## Why this area matters
-
-Many internal tools handle sensitive workforce and compliance data poorly. This app stands out because security and governance are built into the workflow design, especially around documents, identity data, attendance history, and access-controlled files.
+Many internal tools handle sensitive workforce and compliance data poorly. This platform stands out because security and governance are built into the workflow design, not added as afterthoughts.
 
 That matters because the document area is not just a convenience feature. It holds records that can affect whether someone is allowed to work, submit evidence, stay assigned to a project, or pass internal review. In practice, document disorder was both an operational problem and a data-protection problem.
 
@@ -80,15 +78,11 @@ The practical point is simple: not every logged-in user should be able to see ev
 
 ## Data protection signals
 
-The reviewed code shows encryption helpers based on `AES-256-CBC` for sensitive contact fields such as mobile and WhatsApp values.
-
-That is a strong design choice for a WordPress-based internal app and signals deliberate treatment of personal data.
+I encrypted sensitive contact fields - mobile and WhatsApp values - using AES-256-CBC. For a WordPress-based internal app handling workforce personal data this was a deliberate choice, not a default.
 
 ## File handling hardening
 
-The application also shows signs of defensive upload and file handling, including checks around file type validation and secure serving behavior.
-
-Combined with document approval workflows, this reduces the risk of the document area becoming a weak point.
+I added file type validation on uploads and served sensitive files through controlled download handlers rather than direct public URLs. For a system storing workforce compliance documents that distinction matters.
 
 That matters because sensitive workforce files are exactly the kind of area where an internal system can become risky if uploads, downloads, or review permissions are too loose.
 
@@ -110,9 +104,7 @@ This gives the business a path to review suspicious or corrected time entries ra
 
 ## Auditability and historical trace
 
-One of the strongest governance signals across the platform is that important changes do not simply disappear into the latest saved state.
-
-The reviewed design shows a pattern of keeping historical visibility around:
+I designed the system so important changes don't disappear into the latest saved state. Historical visibility is preserved across:
 
 - document replacement and archive history,
 - attendance edits and original values,

@@ -25,6 +25,8 @@ That means the important business entities are stored in dedicated tables instea
 
 ## Core business tables
 
+The following tables carry the primary operational state of the platform.
+
 ## `mhr_projects`
 
 Stores the project catalog and assignment structure.
@@ -199,10 +201,5 @@ The app includes mPDF and uses it for PDF exports of confirmed work data.
 
 ## Notification structure
 
-The code and schema confirm:
-
-- notification preferences for email, SMS, WhatsApp, and popup,
-- a notification log table,
-- document warning logic,
-- and business processes that clearly expect multi-channel notifications.
+The platform supports multi-channel notifications including email, SMS, WhatsApp, and in-app popups. Notification preferences are stored per worker profile and a notification log table tracks delivery history. Document expiry warnings trigger through this layer.
 

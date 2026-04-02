@@ -33,7 +33,7 @@ Workers submit structured reports from the field. Those submissions are tied to 
 
 That turns informal updates into something reviewable and traceable.
 
-![Field submission form placeholder](screenshots/03-field-submission-form.png)
+![Field submission form](screenshots/03-field-submission-form.png)
 
 ### 2. Document governance
 
@@ -41,7 +41,7 @@ Each worker has a document profile shaped by their company type and compliance p
 
 This is not just file storage. It is a live compliance workflow with controlled access to sensitive records.
 
-![Document center placeholder](screenshots/06-document-center-overview.png)
+![Document center](screenshots/06-document-center-overview.png)
 
 ### 3. Attendance
 
@@ -53,7 +53,7 @@ That makes attendance part of operations, not a separate after-the-fact spreadsh
 
 Projects can be placed on a map and viewed alongside assignments and activity. This gives management a quick operational view that is much stronger than a list of jobs in a spreadsheet.
 
-![Operational atlas placeholder](screenshots/01-operational-atlas.png)
+![Operational atlas](screenshots/01-operational-atlas.png)
 
 ## Why the pieces matter more together
 
@@ -81,4 +81,4 @@ Because those things are connected, the platform can do more than store informat
 
 For example, a worker can be blocked from submitting work if the required documents for that workflow are not valid. Office staff can see whether records are pending, approved, rejected, expiring, expired, or missing, and sensitive files are handled through more controlled access patterns than simple public links.
 
-![Compliance block placeholder](screenshots/08-compliance-block.png)
+![Compliance block](screenshots/08-compliance-block.png)

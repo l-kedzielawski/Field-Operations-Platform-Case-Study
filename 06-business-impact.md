@@ -21,7 +21,7 @@ Before the platform, work updates could disappear into message threads or depend
 
 After the platform, submissions entered a visible review flow. That gave supervisors a clear queue, made status visible, and reduced the lag between field execution and managerial approval.
 
-![Approval dashboard placeholder](screenshots/05-approval-dashboard.png)
+![Approval dashboard](screenshots/05-approval-dashboard.png)
 
 ## Compliance control
 
@@ -31,9 +31,9 @@ Instead of discovering missing or expired documents after a problem had already 
 
 That is why the document metrics are so strong: the system did not just notify people, it changed the cost of ignoring the issue.
 
-![Document center placeholder](screenshots/06-document-center-overview.png)
+![Document center](screenshots/06-document-center-overview.png)
 
-![Compliance block placeholder](screenshots/08-compliance-block.png)
+![Compliance block](screenshots/08-compliance-block.png)
 
 
 ## Why the improvements compound

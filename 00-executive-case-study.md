@@ -42,19 +42,7 @@ Instead of hoping the right person sees the right message at the right time, the
 
 The security story matters here because document disorder was not only inefficient. It also made sensitive records harder to control. By centralizing documents, tracking their status, and restricting access through governed workflows, the platform improved both day-to-day execution and operational trust.
 
-## What this demonstrates professionally
-
-This project shows more than implementation skill. It shows:
-
-- business diagnosis,
-- systems thinking,
-- practical delivery inside a constrained client environment,
-- governance built into the product itself,
-- security and access-control thinking around sensitive operational records,
-- and iterative improvement in a live production setting.
-
-
-## Outcome snapshot
+## Results
 
 | Area | Before | After |
 |------|--------|-------|
@@ -64,15 +52,20 @@ This project shows more than implementation skill. It shows:
 | Coordination overhead | high manual effort | lower by about 20 hours per week |
 
 
-## Screenshot placeholders
+## Screenshots
 
-![Operational atlas placeholder](screenshots/01-operational-atlas.png)
+![Operational atlas](screenshots/01-operational-atlas.png)
+Map-based project and workforce visibility.
 
-![Field submission placeholder](screenshots/03-field-submission-form.png)
+![Field submission form](screenshots/03-field-submission-form.png)
+Structured field report submission tied to project and supervisor.
 
-![Approval dashboard placeholder](screenshots/05-approval-dashboard.png)
+![Pending approvals](screenshots/05-approval-dashboard.png)
+Submissions queued for review with status tracking.
 
-![Approved Panel with PDF raport export](screenshots/06-approved-dashboard.png)
+![Approved records](screenshots/06-approved-dashboard.png)
+Approved submissions with PDF export for payroll and compliance.
 
-![Monter List with all the info](screenshots/07-monter-list.png)
+![Worker roster](screenshots/07-monter-list.png)
+Worker list with compliance status and assignment context.
 

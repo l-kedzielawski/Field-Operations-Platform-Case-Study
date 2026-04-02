@@ -1,7 +1,5 @@
 # User Roles and Workflows
 
-## Why this file matters
-
 This platform is built around operational roles. Different users see different tools, make different decisions, and carry different responsibilities inside the workflow.
 
 ## Primary user groups
