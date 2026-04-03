@@ -56,6 +56,6 @@ mit
 ## Contact
 
 Lukasz Kedzielawski
-lukasz@kedzielawski.com
+l.kedzielawski@gmail.com
 [linkedin.com/in/lukasz-kedzielawski](https://linkedin.com/in/lukasz-kedzielawski)
-[kedzielawski.com](https://kedzielawski.com)
+
